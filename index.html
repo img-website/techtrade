@@ -5,215 +5,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/output.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body class="font-heading">
-    <header class="w-full main-header fixed z-50 bg-white shadow">
-      <div
-        class="mx-auto max-w-7xl flex items-center justify-between container lg:px-8 px-4 py-4  relative">
-        <div class="flex flex-col flex-wrap lg:flex-nowrap">
-          <a href="#" class="logo">
-            <img class="md:h-20 md:w-auto" width="174" height="48"
-              src="assets/img/logo.png" data-src="assets/img/logo.png"
-              alt="IMG Global Infotech Logo" title="IMG Global Infotech Logo">
-          </a>
-        </div>
-        <div class="flex flex-col flex-wrap lg:flex-nowrap items-center">
-          <div
-            class="lg:hidden flex flex-col relative lg:gap-x-12 items-center">
-            <ul class="flex lg:flex-nowrap flex-wrap">
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">About</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Resoures</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Important
-                  Links</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Products</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Back
-                  Office</a>
-              </li>
-              <li
-                class="request-btn flex items-center gap-2">
-                <!-- <a href="#"
-                  class="flex items-center text-sm px-4 py-4 relative 
-                  bg-secondary font-semibold uppercase rounded-md before:absolute before:content-[''] before:w-1 before:h-7 before:bg-white before:rounded-md before:left-[6px] before:top-[8px] after:content-[''] after:absolute after:bg-white after:w-[6px] after:h-[6px] after:rounded-full after:left-[5px] after:top-[40px]">
-                  start trading
-                </a> -->
-                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                  <span class="select-nonee">Open a Demat A/C
-                    <span aria-hidden="true" class="">→</span> </span>
+     <header class="fixed top-0 w-full bg-white border-b border-slate-200 shadow-lg z-50">
+      <div class="max-2xl:max-w-7xl 2xl:px-24 3xl:px-36 mx-auto lg:pb-3 group-[]/nav:py-3 py-3 px-6 lg:px-8 z-50">
+          <div class="flex items-center justify-between relative">
+                <a href="#" class="logo">
+                  <img class="md:h-20 md:w-auto" width="174" height="48"
+                  src="assets/img/logo.png" data-src="assets/img/logo.png" alt="" title="">
                 </a>
-                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-secondary text-themeColor1 md:hover:bg-themeColor1 md:hover:text-white">
-                  <span class="select-nonee">Start Tarding
-                    <span aria-hidden="true" class="">→</span> </span>
-                </a>
-              </li>
-            </ul>
+              <div class="flex items-center">
+                  <ul class="lg:flex gap-2 hidden items-center">
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                             About
+                          </a>
+                      </li>
+                      <li class="group ">
+                        <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                         Resources<span class="*:size-4">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg></span>
+                       </a>
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide ">
+                            Important Links<span class="*:size-4">
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg></span>
+                          </a>
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                            Products<span class="*:size-4">
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg></span>
+                          </a>
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                            Back
+                            Office<span class="*:size-4">
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg></span>
+                          </a>
+                      </li>
+                      <li class="request-btn flex items-center gap-2">
+                        <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A] text-sm uppercase">Open a Demat A/C</span>
+                        </a>
+                        <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-[#004AAD] flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C5D8F3] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#fff] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#fff]">Start Trading</span>
+                        </a>
+                    </li>
+                  </ul>
+                  <div class="flex items-center gap-4">
+                      <div class="flex lg:hidden">
+                          <label for="sideToggle" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black group-[]/nav:text-black">
+                              <span class="sr-only">Open menu</span>
+                              <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5">
+                                  </path>
+                              </svg>
+                          </label>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="toggle-btn">
-            <label for="sideToggle" class="*:size-6 *:text-themeColor1">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg>
-          </label>
-          </div>
-        </div>
-        <div class="hidden lg:flex lg:flex-col lg:gap-x-8 gap-y-5 ml-auto mr-0 items-end">
-          
-        </div>
       </div>
     </header>
-    
-    <div class="relative">
-      <div
-        class="w-full flex bg-cover bg-center h-[700px] text-black mx-auto bg-[url('../img/vector-bg.png')]">
-        <div class="lg:mt-24 py-8 mx-auto max-w-7xl px-6 lg:px-8 ">
-          <div class="swiper mySwiper relative overflow-hidden "
-            data-swiper='{
-           "slidesPerView": 1,
-           "spaceBetween": 30,
-           "direction":vertical,
-           "loop": true,
-           "dots": true,
-           "centeredSlides": true,
-           "mousewheel": true,
-           "speed": 2000,
-           "autoplay": { "delay": 3000, "disableOnInteraction": false },
-           "breakpoints": {
-             "320": { "slidesPerView": 1, "spaceBetween": 10 },
-             "480": { "slidesPerView": 1, "spaceBetween": 10 },
-             "640": { "slidesPerView": 1, "spaceBetween": 15 },
-             "1024":{ "slidesPerView": 1, "spaceBetween": 20 }
-           },
-           pagination: {
-            el: ".centered-slide-carousel .swiper-pagination",
-            clickable: true,
-          },
-        }'>
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide bg-white  rounded-[57px] h-auto p-8 flex items-center ">
-                <div
-                  class="flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
-                  <div
-                    class="flex flex-col  w-full md:w-[50%] md:text-left">
-                    <h1 class="font-bold text-[42px] leading-tight mb-3">Where Investments <span class="text-themeColor1 ">Meet Opportunities</span> </h1>
-                    <p
-                      class="text-themecolor3 text-sm font-normal leading-relaxed font-serif">Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry's standard
-                      dummy
-                      text ever since the 1500s, when an unknown printer took a
-                      galley of type and scrambled it to make a type specimen
-                      book.</p>
-                      <div class="mt-6 flex gap-4">
-                        <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                          <span class="select-nonee">Open a Demat A/C
-                            <span aria-hidden="true" class="">→</span> </span>
-                        </a>
-                      </div>
-                  </div>
-                  <div
-                    class="flex flex-col items-center justify-center w-full md:w-[50%]">
-                    <div class="image"><img src="assets/img/hero-right.png"
-                        class="object-cover w-full h-full md:w-[500px]"></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide bg-white rounded-[57px] h-auto p-8 flex items-center ">
-                <div
-                  class="flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
-                  <div
-                    class="flex flex-col  w-full md:w-[50%] md:text-left">
-                    <h1 class="font-bold text-[42px] leading-tight mb-3">Empower
-                      Your Trades<span class="text-themeColor2">with
-                        Precision</span> </h1>
-                    <p
-                      class="text-themecolor3 text-sm font-normal leading-relaxed">Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry's standard
-                      dummy
-                      text ever since the 1500s, when an unknown printer took a
-                      galley of type and scrambled it to make a type specimen
-                      book.</p>
-                      <div class="mt-6 flex gap-4">
-                         
-                        <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                          <span class="select-nonee">Open a Demat A/C
-                            <span aria-hidden="true" class="">→</span> </span>
-                        </a>
-                      </div>
-                  </div>
-                  <div
-                    class="flex flex-col items-center justify-center w-full md:w-[50%]">
-                    <div class="image"><img src="assets/img/hero-right.png"
-                        class="object-cover w-full h-full md:w-[500px]"></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="swiper-slide bg-white rounded-[57px] h-auto p-8 flex items-center ">
-                <div
-                  class="flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
-                  <div
-                    class="flex flex-col w-full md:w-[50%] md:text-left">
-                    <h1 class="font-bold text-[42px] leading-tight mb-3">Empowering Your Journey <span class="text-themeColor1">in the Markets</span> </h1>
-                    <p
-                      class="text-themecolor3 text-sm font-normal leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry's standard
-                      dummy
-                      text ever since the 1500s, when an unknown printer took a
-                      galley of type and scrambled it to make a type specimen
-                      book.</p>
-                     
-                        <div class="mt-6 flex gap-4">
-                         
-                          <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                            <span class="select-nonee">Open a Demat A/C
-                              <span aria-hidden="true" class="">→</span> </span>
-                          </a>
-                        </div>
-                     
-                  </div>
-                  <div
-                    class="flex flex-col items-center justify-center w-full md:w-[50%]">
-                    <div class="image"><img src="assets/img/hero-right.png"
-                        class="object-cover w-full h-full md:w-[500px]"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination">
-              <div class="flex items-center gap-2">
-                <div
-                  class="swiper-button bg-[#4F46E5] w-3 h-3 rounded-md"></div>
-                <div
-                  class="swiper-button bg-[#4F46E5] w-3 h-3 rounded-md"></div>
-                <div
-                  class="swiper-button bg-[#4F46E5] w-3 h-3 rounded-md"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <input type="checkbox" class="peer/sideToggle hidden " name="sideToggle" id="sideToggle">
+    <label for="sideToggle" class="fixed inset-0 -z-[1011] pointer-events-none backdrop-blur-xl bg-theme1 peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
+    <div class="fixed flex flex-col h-full inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-black select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-theme1/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
+    <div class="flex items-center justify-between">
+        <a href="" class="-ml-1.5">
+            <span class="sr-only">Tech Trade</span>
+            <img class="h-12 w-auto" width="174" height="48" src="assets/img/logo.png" alt=" Logo">
+        </a>
+        <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 *:text-white">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </label>
     </div>
-    <section class="relative w-full mx-auto px-4 lg:px-8 py-12">
-      <div class="mx-auto container ">
+    <div class="mt-6 flow-root flex-fill -mr-4 pr-4">
+        <div class="-my-6 divide-y divide-white">
+            <div class="space-y-2 py-6">
+                <div class="flex flex-col gap-5 items-center">
+                    <div class="flex flex-col w-full gap-y-5">
+                        <a href="#" class="text-sm font-semibold text-white">About</a>
+                        <a href="#" class="text-sm font-semibold text-white">Resources</a>
+                        <a href="#" class="text-sm font-semibold text-white">Important Links</a>
+                        <a href="#" class="text-sm font-semibold text-white">Products</a>
+                        <a href="#" class="text-sm font-semibold text-white">Back Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<div class="w-full relative flex bg-cover bg-center lg:h-[670px] md:h-[650px] h-[800px] pt-[10rem] rounded-b-[57px] text-black mx-auto bg-[url('../img/vector-bg.png')] ">
+  <div class="w-full mx-auto max-w-7xl px-6 lg:px-8 relative [&amp;_.swiper-pagination-bullet]:!size-3 [&amp;_.swiper-pagination-bullet]:rounded-full [&amp;_.swiper-pagination-bullet]:!bg-gray-900 [&amp;_.swiper-pagination-bullet.swiper-pagination-bullet-active]:!w-8">
+    <div class="swiper testimonialsSwiper rounded-3xl swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{
+            &quot;slidesPerView&quot;: 1,
+            &quot;speed&quot;: 500,
+            &quot;autoplay&quot;: true,
+            &quot;loop&quot;: true,
+            &quot;grabCursor&quot;: true,
+            &quot;pagination&quot;: {
+            &quot;el&quot;: &quot;.swiper-pagination-1&quot;,
+            &quot;clickable&quot;: true
+            },
+        
+            &quot;navigation&quot;: {
+                &quot;nextEl&quot;: &quot;.swiper-button-next&quot;,
+                &quot;prevEl&quot;: &quot;.swiper-button-prev&quot;
+            }
+        }">
+        <ul class="swiper-wrapper flex items-center relative" id="swiper-wrapper-e3e9107b983c7c87a" aria-live="polite" style="cursor: grab;">
+            <li class="swiper-slide h-full bg-white rounded-3xl overflow-hidden relative group swiper-slide-active" role="group" aria-label="1 / 3" style="width: 1216px; margin-right: 5px;" data-swiper-slide-index="0">
+                <div class="flex flex-col py-14 px-10 h-full relative z-50">
+                    <div class="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                        <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-5 ">
+                          <h2 class="font-bold text-2xl md:text-2xl lg:text-4xl text-balance">Empowering Traders,<span class="text-themeColor2">Transforming Wealth</span></h2> 
+                            <div class="text-sm inline-block text-slate-600 font-serif leading-6">Trading doesn’t have to be complex. Our platform simplifies the process with intuitive tools, expert guidance, and actionable insights. Dive into the world of stocks and trading with confidence and start building your wealth today.
+                            </div>
+                            <a href="#" class="sm:text-center group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                              <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
+                            </a>
+                        </div>
+                        <div class="grow-0 shrink-0 max-sm:w-full mb-5">
+                          <img class="h-[14rem] lg:h-[20rem] lg:ps-10 w-auto max-sm:mx-auto" width="256" height="320" src="assets/img/hero-1.png" alt="hero-img" >
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="swiper-slide h-full bg-white rounded-3xl overflow-hidden relative group swiper-slide-next" role="group" aria-label="2 / 3" style="width: 1216px; margin-right: 5px;" data-swiper-slide-index="1">
+                <div class="flex flex-col py-14 px-10 h-full relative z-50">
+                    <div class="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                        <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-5">
+                          <h2 class="font-bold text-2xl md:text-2xl lg:text-4xl text-balance">Invest with Confidence, <span class="text-themeColor1">Succeed with Us</span></h2> 
+                            <div class="text-sm inline-block text-slate-600 font-serif leading-6">Discover a trading experience built for success. From real-time stock data to powerful analytics, we provide everything you need to stay ahead in the fast-moving world of markets. Whether you're day trading or building long-term wealth, our platform supports your financial goals.</div>
+                            <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                              <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
+                            </a>
+                        </div>
+                        <div class="grow-0 shrink-0 max-sm:w-full mb-5">
+                          <img class="h-[14rem] lg:h-[20rem] lg:ps-10 w-auto max-sm:mx-auto" width="256" height="320" src="assets/img/hero-2.png" alt="hero-img" >
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="swiper-slide h-full bg-white rounded-3xl overflow-hidden relative group" role="group" aria-label="3 / 3" style="width: 1216px; margin-right: 5px;" data-swiper-slide-index="2">
+                <div class="flex flex-col py-14 px-10 h-full relative z-50">
+                    <div class="w-full flex max-sm:flex-col-reverse relative z-10 items-center max-sm:text-center">
+                        <div class="grow max-sm:w-full text-black flex flex-col max-sm:gap-y-4 gap-y-5">
+                            <h2 class="font-bold text-2xl md:text-2xl lg:text-4xl text-balance">Empower
+                              Your Trades <span class="text-themeColor2">with
+                                Precision</span></h2> 
+                            <div class="text-sm inline-block text-slate-600 font-serif leading-6">Investing in the stock market has never been more accessible. Whether you're a seasoned trader or just starting, our platform provides the tools, insights, and real-time data you need to make informed decisions. </div>
+                            <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                              <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
+                            </a>
+                          </div>
+                        <div class="grow-0 shrink-0 max-sm:w-full mb-5">
+                            <img class="h-[14rem] lg:h-[20rem] lg:ps-10 w-auto max-sm:mx-auto" width="256" height="320" src="assets/img/hero-3.png" alt="hero-img" >
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    <!-- <div class="swiper-button-prev after:hidden max-lg:!hidden rounded-full flex items-center justify-center duration-300 !left-0 bg-white !text-black p-4 border-4 border-gray-100 !size-16 *:!size-full" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-e3e9107b983c7c87a" aria-disabled="false">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
+        </svg>
+    </div>
+    <div class="swiper-button-next after:hidden max-lg:!hidden rounded-full flex items-center justify-center duration-300 !right-0 bg-white !text-black p-4 border-4 border-gray-100 !size-16 *:!size-full" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-e3e9107b983c7c87a" aria-disabled="false">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+        </svg>
+    </div> -->
+    <div class="swiper-pagination swiper-pagination-1 !-bottom-8 md:hidden block swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+  </div>
+</div>
+  <section class="relative w-full py-12">
+      <div class="w-full mx-auto max-w-7xl px-4 lg:px-8">
         <div class="flex flex-wrap lg:flex-nowrap items-center">
-          <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4">
+          <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4 flex justify-center">
             <div class="mx-auto">
               <img class="about-img" width="500" height="487"
                 src="assets/img/about-us.png"
@@ -225,15 +204,13 @@
             <div class="heading">
               <div class="subtitle text-themeColor2 font-semibold">About
                 Us</div>
-              <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black ">
+              <h2 class=" text-black font-bold text-2xl md:text-2xl lg:text-4xl text-balance">
                 Welcome to Sanchit Financial &
                   with <span class=" text-themeColor2">
                   Management Services Ltd.</span>
-
               </h2>
             </div>
-            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">At
+            <p class="mt-4 text-sm leading-6 text-slate-600 font-serif">At
               IMG Global Infotech, we simplify the process of hiring dedicated
               Angular developers who specialize in crafting interactive and
               responsive web applications. With years of experience, over 100
@@ -244,7 +221,7 @@
             <div class="w-full grid lg:grid-cols-2 grid-cols-2 gap-6 py-6">
               <div class="group/tab flex items-center lg:gap-4 gap-8">
                 <div
-                  class="*:size-8 w-7 h-7 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
+                  class="*:size-6 w-6 h-6 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
                   <svg stroke="#c85103" fill="none" stroke-width="2"
                     viewBox="0 0 24 24" stroke-linecap="round"
                     stroke-linejoin="round" height="200px" width="200px"
@@ -254,66 +231,39 @@
                       d="M17 3v2"></path><rect width="4" height="8" x="15" y="5"
                       rx="1"></rect><path d="M17 13v3"></path><path
                       d="M3 3v16a2 2 0 0 0 2 2h16"></path></svg></div>
-                <span class="font-semibold text-sm text-slate-600">Faster
+                <span class="font-semibold text-sm text-slate-600 font-serif">Faster
                   Execution</span>
               </div>
-              <div class="group/tab flex items-center lg:gap-4 gap-8">
-                <div
-                  class="*:size-8 w-7 h-7 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
-                  <svg stroke="#c85103" fill="none" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round"
-                    stroke-linejoin="round" height="200px" width="200px"
-                    xmlns="http://www.w3.org/2000/svg"><path
-                      d="M9 5v4"></path><rect width="4" height="6" x="7" y="9"
-                      rx="1"></rect><path d="M9 15v2"></path><path
-                      d="M17 3v2"></path><rect width="4" height="8" x="15" y="5"
-                      rx="1"></rect><path d="M17 13v3"></path><path
-                      d="M3 3v16a2 2 0 0 0 2 2h16"></path></svg></div>
-                <span class="font-semibold text-sm text-slate-600">Cutting Edge
+              <div class="group/tab flex items-center lg:gap-4 gap-8 ">
+                <div class="*:size-6 w-6 h-6 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
+                  <svg stroke="#c85103" fill="#c85103" stroke-width="0" viewBox="0 0 1024 1024" fill-rule="evenodd" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M320 30.02c8.837 0 16 7.163 16 16v304c0 8.836-7.163 16-16 16H16c-8.837 0-16-7.164-16-16v-304c0-8.837 7.163-16 16-16zm-52 68H68v200h200zm493.333 87.686c6.248 6.248 6.248 16.379 0 22.627l-181.02 181.02c-6.248 6.248-16.378 6.248-22.627 0l-181.019-181.02c-6.248-6.248-6.248-16.379 0-22.627l181.02-181.02c6.248-6.248 16.378-6.248 22.627 0zm-84.853 11.313L569 89.54 461.52 197.02 569 304.5zM320 430.02c8.837 0 16 7.164 16 16v304c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16v-304c0-8.836 7.163-16 16-16zm-52 68H68v200h200zm452-68c8.837 0 16 7.164 16 16v304c0 8.837-7.163 16-16 16H416c-8.837 0-16-7.163-16-16v-304c0-8.836 7.163-16 16-16zm-52 68H468v200h200z" transform="translate(144 113.98)"></path></svg></div>
+                <span class="font-semibold text-sm text-slate-600 font-serif">Cutting Edge
                   Technology<br> Products</span>
               </div>
               <div class="group/tab flex items-center lg:gap-4 gap-8">
                 <div
-                  class="*:size-8 w-7 h-7 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
-                  <svg stroke="#c85103" fill="none" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round"
-                    stroke-linejoin="round" height="200px" width="200px"
-                    xmlns="http://www.w3.org/2000/svg"><path
-                      d="M9 5v4"></path><rect width="4" height="6" x="7" y="9"
-                      rx="1"></rect><path d="M9 15v2"></path><path
-                      d="M17 3v2"></path><rect width="4" height="8" x="15" y="5"
-                      rx="1"></rect><path d="M17 13v3"></path><path
-                      d="M3 3v16a2 2 0 0 0 2 2h16"></path></svg></div>
-                <span class="font-semibold text-sm text-slate-600">End to End
+                  class="*:size-6 w-6 h-6 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
+                  <svg stroke="#c85103" fill="#c85103" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M19.9381 8H21C22.1046 8 23 8.89543 23 10V14C23 15.1046 22.1046 16 21 16H19.9381C19.446 19.9463 16.0796 23 12 23V21C15.3137 21 18 18.3137 18 15V9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9V16H3C1.89543 16 1 15.1046 1 14V10C1 8.89543 1.89543 8 3 8H4.06189C4.55399 4.05369 7.92038 1 12 1C16.0796 1 19.446 4.05369 19.9381 8ZM3 10V14H4V10H3ZM20 10V14H21V10H20ZM7.75944 15.7849L8.81958 14.0887C9.74161 14.6662 10.8318 15 12 15C13.1682 15 14.2584 14.6662 15.1804 14.0887L16.2406 15.7849C15.0112 16.5549 13.5576 17 12 17C10.4424 17 8.98882 16.5549 7.75944 15.7849Z"></path></svg></div>
+                <span class="font-semibold text-sm text-slate-600 font-serif">End to End
                   Support</span>
               </div>
-              <div class="group/tab flex items-center lg:gap-4 gap-8">
+              <div class="group/tab flex items-center lg:gap-4 gap-8 ">
                 <div
-                  class="*:size-8 w-7 h-7 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
-                  <svg stroke="#c85103" fill="none" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round"
-                    stroke-linejoin="round" height="200px" width="200px"
-                    xmlns="http://www.w3.org/2000/svg"><path
-                      d="M9 5v4"></path><rect width="4" height="6" x="7" y="9"
-                      rx="1"></rect><path d="M9 15v2"></path><path
-                      d="M17 3v2"></path><rect width="4" height="8" x="15" y="5"
-                      rx="1"></rect><path d="M17 13v3"></path><path
-                      d="M3 3v16a2 2 0 0 0 2 2h16"></path></svg></div>
-                <span class="font-semibold text-sm text-slate-600">Unmatched
+                  class="*:size-6 w-6 h-6 relative *:absolute *:mt-1 *:ms-1 bg-slate-200 rounded-sm">
+                  <svg stroke="#c85103" fill="#c85103" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M403.29 32H280.36a14.46 14.46 0 0 0-10.2 4.2L24.4 281.9a28.85 28.85 0 0 0 0 40.7l117 117a28.86 28.86 0 0 0 40.71 0L427.8 194a14.46 14.46 0 0 0 4.2-10.2v-123A28.66 28.66 0 0 0 403.29 32z"></path><path d="M352 144a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m230 480 262-262a13.81 13.81 0 0 0 4-10V80"></path></svg></div>
+                <span class="font-semibold text-sm text-slate-600 font-serif">Unmatched
                   Pricing</span>
               </div>
             </div>
             <div class="mt-4 flex gap-4">
-              <a href
-                class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                <span class="select-nonee">Open a Demat A/C
-                  <span aria-hidden="true" class>→</span> </span>
+              <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+  </section>
     <section
       class="w-full pt-4 lg:pb-28 pb-16 sm:py-16 relative bg-[#FBE7DA] rounded-t-[57px]">
       <div class="w-full mx-auto max-w-7xl px-4 lg:px-8">
@@ -332,111 +282,85 @@
         <div
           class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-full gap-8 py-12">
           <div
-            class="bg-[#953F07] z-10 opacity-100 rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
+            class="bg-[#953F07] z-10 opacity-100 lg:h-[300px] h-full rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
             <div
               class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
-              <div class="relative flex flex-col gap-3 p-2 before:absolute before:content-[''] before:bg-[#953F07] before:w-[1px] before:h-[165px] before:top-10 before:right-0">
-                <h3 class="text-white lg:text-base text-2xl font-semibold">Equity</h3>
-                <div
-                  class="mt-2 sm:text-base text-white text-sm leading-6">Tech Trade provides comprehensive Equity services, offering expert analysis, strategic insights, and personalized solutions to help clients navigate the complexities of the equity markets and achieve their financial goals.</div>
-              </div>
-              <div class="flex flex-col gap-16 justify-between items-center">
-                <div class="*:size-8 *:text-white">
-                  <svg stroke="white" fill="currentColor" stroke-width="0"
-                    viewBox="0 0 16 16" height="200px" width="200px"
-                    xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M1.5 14H15v-1H2V0H1v13.5l.5.5zM3 11.5v-8l.5-.5h2l.5.5v8l-.5.5h-2l-.5-.5zm2-.5V4H4v7h1zm6-9.5v10l.5.5h2l.5-.5v-10l-.5-.5h-2l-.5.5zm2 .5v9h-1V2h1zm-6 9.5v-6l.5-.5h2l.5.5v6l-.5.5h-2l-.5-.5zm2-.5V6H8v5h1z"></path></svg>
+              <div class="relative flex flex-col gap-3 p-2">
+                <div class="flex gap-16 justify-between items-center">
+                  <div><h3 class="text-white lg:text-xl text-lg font-semibold">Equity</h3></div>
+                  <div class="*:size-8 *:text-white">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                  </div>
                 </div>
-                <div class="-rotate-90 mt-4">
-                  <a href="#"
-                    class="*:size-4 text-sm text-white inline-flex font-semibold *:-rotate-[40deg]">More
-                    <svg stroke="currentColor" fill="currentColor"
-                      stroke-width="0" viewBox="0 0 512 512" height="200px"
-                      width="200px" xmlns="http://www.w3.org/2000/svg"><path
-                        fill="none" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="48"
-                        d="m112 268 144 144 144-144M256 392V100"></path></svg>
-                  </a>
+                <div class="mt-2  text-white text-sm leading-6">A DEMAT Account (Dematerialized Account) is essential for investors and traders to Convenience in trading and managing securities. electronic form. Below are the comprehensive services provided with a DEMAT account.
                 </div>
               </div>
             </div>
-            <div class="text-white px-2 flex items-center py-4">* Navigate the
-              Market with Ease.</div>
+            <div class="text-white px-9 flex items-center p-3">
+              <a href="#" class="*:size-4 text-sm text-white inline-flex font-semibold *:rotate-[45deg]">More
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 244 144-144 144 144M256 120v292"></path></svg>
+              </a>
+            </div>
           </div>
           <div
-            class="bg-[#953F07] z-10 opacity-100 rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
+            class="bg-[#953F07] z-10 opacity-100 lg:h-[300px] h-full rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
             <div
               class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
-              <div class="relative flex flex-col gap-3 p-2 before:absolute before:content-[''] before:bg-[#953F07] before:w-[1px] before:h-[165px] before:top-10 before:right-0">
-                <h3 class="text-white lg:text-base text-2xl font-semibold">Demat A/C</h3>
-                <div
-                  class="mt-2 sm:text-base text-white text-sm leading-6">A DEMAT Account (Dematerialized Account) is essential for investors and traders to Convenience in trading and managing securities. electronic form. Below are the comprehensive services provided with a DEMAT account. </div>
-              </div>
-              <div class="flex flex-col gap-16 justify-between items-center">
-                <div class="*:size-8 *:text-white">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6-5H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9.31 14a5.977 5.977 0 0 1 6.62 0h-6.62zm9.31-.27C18.53 14.06 16.4 13 14 13s-4.53 1.06-6 2.73V4h12v11.73z"></path></svg>
+              <div class="relative flex flex-col gap-3 p-2">
+                <div class="flex gap-16 justify-between items-center">
+                  <div><h3 class="text-white lg:text-xl text-lg font-semibold">Futures & Options</h3></div>
+                  <div class="*:size-8 *:text-white">
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M12 21h-7a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7"></path><path d="M3 10h18"></path><path d="M10 3v18"></path><path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M19.001 15.5v1.5"></path><path d="M19.001 21v1.5"></path><path d="M22.032 17.25l-1.299 .75"></path><path d="M17.27 20l-1.3 .75"></path><path d="M15.97 17.25l1.3 .75"></path><path d="M20.733 20l1.3 .75"></path></svg>
+                  </div>
                 </div>
-                <div class="-rotate-90 mt-4">
-                  <a href="#"
-                    class="*:size-4 text-sm text-white inline-flex font-semibold *:-rotate-[40deg]">More
-                    <svg stroke="currentColor" fill="currentColor"
-                      stroke-width="0" viewBox="0 0 512 512" height="200px"
-                      width="200px" xmlns="http://www.w3.org/2000/svg"><path
-                        fill="none" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="48"
-                        d="m112 268 144 144 144-144M256 392V100"></path></svg>
-                  </a>
+                <div class="mt-2  text-white text-sm leading-6">A DEMAT Account (Dematerialized Account) is essential for investors and traders to Convenience in trading and managing securities. electronic form. Below are the comprehensive services provided with a DEMAT account.
                 </div>
               </div>
             </div>
-            <div class="text-white px-2 flex items-center py-4">* Navigate the
-              Market with Ease.</div>
-          </div>
-          <div
-          class="bg-[#953F07] z-10 opacity-100 rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
-          <div
-            class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
-            <div class="relative flex flex-col gap-3 p-2 before:absolute before:content-[''] before:bg-[#953F07] before:w-[1px] before:h-[165px] before:top-10 before:right-0">
-              <h3 class="text-white lg:text-base text-2xl font-semibold">Futures & Options</h3>
-              <div
-                class="mt-2 sm:text-base text-white text-sm leading-6">Tech Trade offers expert Futures and Options services, delivering strategic insights, market analysis, and tailored solutions to help clients Reduces costs and improves maximize opportunities and manage risks in the derivatives markets.</div>
-            </div>
-            <div class="flex flex-col gap-16 justify-between items-center">
-              <div class="*:size-8 *:text-white">
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M12 21h-7a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7"></path><path d="M3 10h18"></path><path d="M10 3v18"></path><path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M19.001 15.5v1.5"></path><path d="M19.001 21v1.5"></path><path d="M22.032 17.25l-1.299 .75"></path><path d="M17.27 20l-1.3 .75"></path><path d="M15.97 17.25l1.3 .75"></path><path d="M20.733 20l1.3 .75"></path></svg>
-              </div>
-              <div class="-rotate-90 mt-4">
-                <a href="#"
-                  class="*:size-4 text-sm text-white inline-flex font-semibold *:-rotate-[40deg]">More
-                  <svg stroke="currentColor" fill="currentColor"
-                    stroke-width="0" viewBox="0 0 512 512" height="200px"
-                    width="200px" xmlns="http://www.w3.org/2000/svg"><path
-                      fill="none" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="48"
-                      d="m112 268 144 144 144-144M256 392V100"></path></svg>
-                </a>
-              </div>
+            <div class="text-white px-9 flex items-center p-3">
+              <a href="#" class="*:size-4 text-sm text-white inline-flex font-semibold *:rotate-[45deg]">More
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 244 144-144 144 144M256 120v292"></path></svg>
+              </a>
             </div>
           </div>
-          <div class="text-white px-2 flex items-center py-4">* Navigate the
-            Market with Ease.</div>
+          <div
+            class="bg-[#953F07] z-10 opacity-100 lg:h-[300px] h-full rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
+            <div
+              class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
+              <div class="relative flex flex-col gap-3 p-2">
+                <div class="flex gap-16 justify-between items-center">
+                  <div><h3 class="text-white lg:text-xl text-lg font-semibold">Demat A/C</h3></div>
+                  <div class="*:size-8 *:text-white">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6-5H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9.31 14a5.977 5.977 0 0 1 6.62 0h-6.62zm9.31-.27C18.53 14.06 16.4 13 14 13s-4.53 1.06-6 2.73V4h12v11.73z"></path></svg>
+                  </div>
+                </div>
+                <div class="mt-2  text-white text-sm leading-6">A DEMAT Account (Dematerialized Account) is essential for investors and traders to Convenience in trading and managing securities. electronic form. Below are the comprehensive services provided with a DEMAT account.
+                </div>
+              </div>
+              
+            </div>
+            <div class="text-white px-9 flex items-center p-3">
+              <a href="#" class="*:size-4 text-sm text-white inline-flex font-semibold *:rotate-[45deg]">More
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 244 144-144 144 144M256 120v292"></path></svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="w-full relative bg-white rounded-t-[57px] -mt-14 px-8 lg:px-8">
-      <div class="relative max-w-7xl px-8 py-20 mx-auto ">
+      <div class="relative max-w-7xl lg:px-8 px-4 py-12 lg:py-20 mx-auto ">
         <div
-          class="overflow-hidden w-full mx-auto rounded-[44px] h-[400px] bg-cover bg-center bg-no-repeat bg-[url('../img/cta-bg.png')] ">
+          class="overflow-hidden realtive w-full mx-auto rounded-[44px] lg:h-[420px] h-[350px] bg-cover bg-center bg-no-repeat bg-[url('../img/cta-bg.png')] ">
           <div class="flex flex-wrap lg:flex-nowrap items-center">
-            <div class="md:grow">
+            <div class="lg:grow hidden lg:block">
               <div class="w-full">
                 <img src="assets\img\bull-img.png">
               </div>
             </div>
-            <div class="md:w-3/5 w-full">
-              <div class="heading text-left">
+            <div class="lg:w-3/5 w-full flex items-center justify-center px-4 py-10">
+              <div>
+              <div class="heading text-center lg:text-left ">
                 <h2
                   class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-white  ">
                  Begin your investing journey with TECH TRADE
@@ -445,14 +369,13 @@
                   class="mt-6 sm:text-base text-slate-100 font-medium text-sm leading-6">Sanchit
                   Financial & Management Services Ltd. is a leading financial
                   services company headquartered in Punjab.</div>
-                <div class="mt-6 flex gap-4">
-                  <a href
-                    class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                    <span class="select-nonee">Open a Demat A/C
-                      <span aria-hidden="true" class>→</span> </span>
+                <div class="mt-6 flex gap-4 justify-center lg:justify-start">
+                  <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-[#004AAD] flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C5D8F3] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                    <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#fff] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#fff]">Open a Demat A/C</span>
                   </a>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -465,8 +388,7 @@
             class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
         </div>
         <div class="heading text-center">
-          <div class="subtitle text-themecolor3 font-semibold">How it’s
-            Work</div>
+          <div class="subtitle text-themecolor3 font-semibold">How it’s Work</div>
           <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black ">
             Start Trading on
             <span class="font-bold text-themeColor2">
@@ -474,7 +396,7 @@
           </h2>
         </div>
         <div class="steps-sec">
-          <ul class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-1/2 gap-2 py-12">
+          <ul class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 :md-w-1/2 gap-2 py-12 justify-center">
            <li class="relative ">
             <div class="overflow-hidden border border-[#E9E9E9] relative block w-[300px] h-[300px] opacity-100 rounded-full bg-[#F4F4F4]  duration-300 cursor-pointer group ">
               <div class="inner-bx-circle">
@@ -496,8 +418,7 @@
                     trading journey.”</div>
                 </div>
                 <span
-                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300">Step
-                  01</span>
+                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300"></span>
               </div>
             </div>
             <div
@@ -537,12 +458,11 @@
                     trading goals.”</div>
                 </div>
                 <span
-                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300">Step
-                  02</span>
+                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300"></span>
               </div>
                </div>
               <div
-                class="absolute link top-[34%] translate-y-2/4 right-[-28px] z-20">
+                class="absolute link top-[34%] translate-y-2/4 right-[-28px] z-20 ">
                 <a href="#"
                   class="*:size-5 cursor-pointer rounded-full relative flex items-center justify-center text-center w-12 h-12 leading-tight bg-white border border-[#d8d8d8] border-dashed text-slate-600 ">
                   <svg stroke="currentColor" fill="currentColor"
@@ -577,12 +497,11 @@
                     trading.”</div>
                 </div>
                 <span
-                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300">Step
-                  03</span>
+                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300"></span>
               </div>
             </div>
               <div
-                class="absolute link top-[34%] translate-y-2/4 right-[-28px] z-20">
+                class="absolute link top-[34%] translate-y-2/4 right-[-28px] z-20 ">
                 <a href="#"
                   class="*:size-5 cursor-pointer rounded-full relative flex items-center justify-center text-center w-12 h-12 leading-tight bg-white border border-[#d8d8d8] border-dashed text-slate-600 ">
                   <svg stroke="currentColor" fill="currentColor"
@@ -619,8 +538,7 @@
                     success.</div>
                 </div>
                 <span
-                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300">Step
-                  04</span>
+                  class="absolute -left-2/4 top-[230px] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300"></span>
               </div>
             </div>
             </li>
@@ -648,38 +566,35 @@
               </div>
               <div class="md:grow flex items-end justify-end">
                 <div class="mt-6 flex gap-4">
-                  <a href
-                    class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                    <span class="select-nonee">Open a Demat A/C
-                      <span aria-hidden="true" class>→</span> </span>
+                  <a href="#" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                    <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="w-full flex flex-wrap lg:flex-nowrap items-center justify-between px-8 py-2 ">
+            class="w-full flex flex-wrap lg:flex-nowrap items-center gap-4 px-8 py-2 ">
             <div class="w-full inline-flex items-center py-6 px-4">
               <h3
                 class="text-3xl font-bold text-black border-r border-[#BBD4F5] px-4">12k+</h3>
-              <div class="text-slate-800 px-4 font-medium text-sm">Total
+              <div class="text-black px-4 font-semibold text-sm">Total
                 Projects<br> Completed</div>
               <div class="img px-4"><img src="assets/img/vector-1.png"></div>
             </div>
             <div class="w-full inline-flex items-center py-6 px-4">
               <h3
-                class="text-3xl font-bold text-black border-r border-[#BBD4F5] px-4">12k+</h3>
-              <div class="text-slate-800 px-4 font-medium text-sm">Total
-                Projects<br> Completed</div>
+                class="text-3xl font-bold text-black border-r border-[#BBD4F5] px-4">24/7 </h3>
+              <div class="text-black px-4 font-semibold text-sm">Customer Support</div>
               <div class="img px-4"><img src="assets/img/vector-1.png"></div>
             </div>
             <div class="w-full inline-flex items-center py-6 px-4">
               <h3
-                class="text-3xl font-bold text-black border-r border-[#BBD4F5] px-4">12k+</h3>
-              <div class="text-slate-800 px-4 font-medium text-sm">Total
-                Projects<br> Completed</div>
+                class="text-3xl font-bold text-black border-r border-[#BBD4F5] px-4">100+ </h3>
+              <div class="text-black px-4 font-semibold text-sm">Global Market<br> Access</div>
               <div class="img px-4"><img src="assets/img/vector-1.png"></div>
             </div>
+           
           </div>
         </div>
       </div>
@@ -702,7 +617,7 @@
         </div>
         <div class="relative flex-shrink-0 w-full">
           <div
-            class="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-5 justify-center py-10">
+            class="grid grid-cols-2 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-5 justify-center py-10">
 
             <div
               class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
@@ -1082,10 +997,6 @@
     <section
       class="w-full py-10 relative bg-white rounded-t-[57px] ">
       <div class="w-full mx-auto max-w-7xl px-4 lg:px-8">
-        <div class="absolute inset-0 size-full overflow-hidden">
-          <div
-            class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
-        </div>
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">Faq's</div>
           <h2 class="
@@ -1191,18 +1102,17 @@
       </div>
       </div>
     </section>
-     
     <footer class="bg-[#EAF1FA] rounded-t-[57px] mt-10 py-10 md:pt-16">
       <div class="container mx-auto max-w-7xl px-8 py-4 relative">
-        <div class="w-full flex justify-between items-center">
+        <div class="w-full flex justify-between items-center py-6 border-b border-dashed border-blue-300">
           <div class="flex flex-col flex-wrap lg:flex-nowrap">
             <a href="#" class="logo">
               <img class="md:h-20 md:w-auto" width="174" height="48"
                 src="assets/img/logo.png" data-src="assets/img/logo.png"
-                alt="IMG Global Infotech Logo" title="IMG Global Infotech Logo">
+                alt="" title="">
             </a>
           </div>
-          <div class="flex flex-col flex-wrap lg:flex-nowrap">
+          <div class="flex flex-col flex-wrap lg:flex-nowrap ">
             <div class="w-full flex flex-wrap items-center sm:justify-between justify-center max-sm:gap-2 gap-2 pt-8">
               <div class="text-sm text-themeColor1 font-semibold">Follow Us On-</div>
               <a target="_blank" class="inline-flex group/social justify-center items-center rounded-full bg-[#C7D8EE] text-center relative overflow-hidden shadow-xl shadow-white/20 duration-300 *:size-4 text-base before:bg-blue-900 before:w-[136%] before:h-[133%] before:absolute before:[transform:rotate(45deg)] before:top-[90%] before:-left-[110%] before:duration-300 text-blue-900 p-2 hover:before:-top-[16%] hover:before:-left-[16%] before:ease-[cubic-bezier(0.31,-0.105,0.43,1.59)]">
@@ -1224,10 +1134,10 @@
 
           </div>
         </div>
-        <div class="w-full flex flex-wrap py-8 gap-y-10 text-sm">
+        <div class="w-full flex flex-wrap py-8 gap-y-10 text-sm ">
           <div class="w-full md:w-1/2 lg:w-1/4">
              <div class="flex flex-col w-full px-3">
-                  <div class="w-full font-bold text-lg lg:text-xl pb-4">Contact Info</div>
+                  <div class="w-full font-bold text-lg lg:text-xlpb-3">Contact Info</div>
                   <div class="flex flex-col">
                       <div class="flex gap-2 py-2">
                         <span class="*:size-6 inline-flex items-center gap-2 font-semibold text-base text-themeColor1 *:text-themeColor1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z"></path></svg>Contact No.:</span><span class="font-serif">(+91) 7792022561</span>
@@ -1240,45 +1150,44 @@
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4">
             <div class="flex flex-col w-full">
-                 <div class="w-full font-bold text-lg lg:text-xl pb-4">Quick Links</div>
+                 <div class="w-full font-bold text-lg lg:text-xl pb-3">Quick Links</div>
                  <div class="flex flex-col">
                      <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                         <span class="">About Us</span>
+                         About Us
                      </a>
                      <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                       <span class="">Careers</span>
-                   </a>
-                   <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                     <span class="">Branch Locator</span>
-                 </a>
-                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                   <span class="">Investor Charter</span>
-                 </a>
-               <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                 <span class="">KMP</span>
-               </a>
-            
+                       Careers
+                     </a>
+                    <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                      Branch Locator
+                    </a>
+                    <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                      Investor Charter
+                    </a>
+                    <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                      KMP
+                    </a>
            </div>
             </div>
          </div>
          <div class="w-full md:w-1/2 lg:w-1/4">
           <div class="flex flex-col w-full ">
-               <div class="w-full font-bold text-lg lg:text-xl pb-4">Important Links</div>
+               <div class="w-full font-bold text-lg lg:text-xl pb-3">Important Links</div>
                <div class="flex flex-col">
                    <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                       <span class="">Fit and Proper Declaration</span>
+                       Fit and Proper Declaration
                    </a>
                    <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                     <span class="">Freeze/Unfreeze Trading Account</span>
+                     Freeze/Unfreeze Trading Account
                  </a>
                  <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                   <span class="">Terms & Conditions</span>
+                   Terms & Conditions
                </a>
                <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                 <span class="">Privacy Policy</span>
+                 Privacy Policy
                </a>
              <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-               <span class="">Risk Disclosure on Derivatives</span>
+               Risk Disclosure on Derivatives
              </a>
           
          </div>
@@ -1286,25 +1195,25 @@
        </div>
        <div class="w-full md:w-1/2 lg:w-1/4">
         <div class="flex flex-col w-full">
-             <div class="font-bold text-lg lg:text-xl pb-4">Resources</div>
+             <div class="text-lg lg:text-xl font-bold pb-3">Resources</div>
              <div class="flex flex-col">
-                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                     <span class="">Account Opening Process</span>
+                 <a href="#" class="w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                     Account Opening Process
                  </a>
                  <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                   <span class="">Downloads</span>
+                   Downloads
                </a>
                <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-                 <span class="">Funds Transfer</span>
+                 Funds Transfer
              </a>
              <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-               <span class="">Investor Charter</span>
+               Investor Charter
              </a>
            <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-             <span class="">Holiday Calendar</span>
+             Holiday Calendar
            </a>
          <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
-           <span class="">Backoffice</span>
+           Backoffice
          </a>
          
        </div>
@@ -1313,9 +1222,9 @@
         </div>
       </div>
     </footer>
-    <div class="w-full bg-slate-900 py-6 px-6 mx-auto">
-      <div class="container mx-auto max-w-7xl px-8 py-4 relative">
-      <div class="text-[12px] text-slate-100 leading-5 font-normal tracking-wide font-serif">
+    <div class="w-full bg-[#EAF1FA] py-2 px-6 mx-auto">
+      <div class="container mx-auto max-w-7xl px-8 py-2 relative">
+      <div class="text-[12px] text-black leading-5 font-normal tracking-wide font-serif">
         Sanchit Financial &amp; Management Services Limited: <strong>SEBI Reg. No.</strong> – INZ000295835 | <strong>DP ID</strong> – IN303253 | <strong>Membership No. – NSE </strong>– 08039 | <strong>CIN </strong>– U74140PB1994PLC014438 | <strong>GST No.</strong> – AAFCS1672N1Z6
 <br>
 <strong>Registered Address</strong>: U-6 Krishna Apartment, Hathi Babu Marg, Bani Park,
@@ -1359,8 +1268,7 @@ Kindly note that as per NSE circulars nos: NSE/INVG/36333 dated November 17, 201
         <div class="text-white font-normal text-sm text-start font-serif">Copyright © 2024 <span class="text-themeColor2 font-bold">Sanchit Financial</span> & Management Services Limited.</div>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
